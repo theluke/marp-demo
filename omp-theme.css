@@ -1,0 +1,48 @@
+/* @theme omp-theme */
+
+/* General slide styling */
+section {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  position: relative;
+  padding: 20px;
+}
+
+/* Slide headings color */
+h1, h2, h3, h4, h5, h6 {
+  color: #2cdf9a;
+}
+
+/* Remaining text color */
+p, ul, ol, blockquote {
+  color: #333;
+}
+
+/* Logo at the top right */
+section::before {
+  content: url('https://omp.com/-/media/Images/Main/omp-logo.png');
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: auto;
+  height: 50px; /* Adjust the height as needed */
+}
+
+/* "OMP Confidential" at the bottom right */
+section::after {
+  content: 'OMP Confidential';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8em;
+  color: #f03a37;
+}
+
+/* Ensure images fit within slide dimensions */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
