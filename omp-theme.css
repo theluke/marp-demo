@@ -19,14 +19,14 @@ p, ul, ol, blockquote {
   color: #333;
 }
 
-/* Logo at the top right */
+/* Logo at the top right, resized to be 70% smaller */
 section::before {
-  content: url('https://omp.com/-/media/Images/Main/omp-logo.png');
+  content: url('https://via.placeholder.com/100x50.png?text=Logo');
   position: absolute;
   top: 10px;
   right: 10px;
   width: auto;
-  height: 50px; /* Adjust the height as needed */
+  height: 35px; /* Adjusted height */
 }
 
 /* "OMP Confidential" at the bottom right */
