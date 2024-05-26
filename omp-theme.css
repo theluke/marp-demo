@@ -21,7 +21,7 @@ p, ul, ol, blockquote {
 
 /* Logo at the top right, resized to be 70% smaller */
 section::before {
-  content: url('https://omp.com/-/media/Images/Main/omp-logo.png?text=Logo');
+  content: url('https://omp.com/-/media/Images/Main/Homepage/Industries/industries_chemicals.jpg?w=860');
   position: absolute;
   top: 10px;
   right: 10px;
